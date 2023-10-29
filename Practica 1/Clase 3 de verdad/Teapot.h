@@ -14,7 +14,7 @@ private:
 	float size;
 
 public:
-	Teapot() : position(-2.2f, 1.4f, -3.5f), color(0,0,1),
+	Teapot() : position(-2.2f, 1.4f, -3.5f), color(0.42, 0.89, 0.376),
 		rotation(40.0, -45.0, 30.0), size(0.25) {}
 
 	Vector3D GetPosition() const { return this->position; }

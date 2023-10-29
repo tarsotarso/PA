@@ -14,7 +14,7 @@ private:
 	float size;
 
 public:
-	Cube() : position(2.2f, 1.4f, -3.5f), color(1, 1, 0),
+	Cube() : position(2.2f, 1.4f, -3.5f), color(0.549, 0.322, 0),
 		dimensions(0.5, 0.5, 0.5), rotation(1.0, 0.5, 1.0), size(0.7) {}
 
 	Vector3D GetPosition() const { return this->position; }

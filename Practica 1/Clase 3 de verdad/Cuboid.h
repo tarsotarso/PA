@@ -14,7 +14,7 @@ private:
 	float size;
 
 public:
-	Cuboid() : position(-2.2f, -1.4f, -3.5f), color(1, 0, 1),
+	Cuboid() : position(-2.2f, -1.4f, -3.5f), color(0.41, 0.62, 0.2),
 		dimensions(0.7, 1, 0.5), rotation(1.0, 1.0, 1.0), size(0.7) {}
 
 	Vector3D GetPosition() const { return this->position; }

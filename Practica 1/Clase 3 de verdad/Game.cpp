@@ -12,34 +12,95 @@ void Game::ProcessKeyPressed(unsigned char key, int px, int py)
 	switch (key)
 	{
 	case '0':
-		this->prisma[0].SetColor(Color(prisma[0].GetColor().GetX() == 1.0, prisma[0].GetColor().GetY() != 0.0, prisma[0].GetColor().GetZ() != 0.0));
+		this->prisma[0].SetColor(Color(1, 0, 0));
+		this->prisma[1].SetColor(Color(1, 0, 0));
+		this->prisma[2].SetColor(Color(1, 0, 0));
+		this->prisma[3].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[4].SetColor(Color(1, 0, 0));
+		this->prisma[5].SetColor(Color(1, 0, 0));
+		this->prisma[6].SetColor(Color(1, 0, 0));
 		break;
 	case '1':
-		cout << "hola" << endl;
+		this->prisma[0].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[1].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[2].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[3].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[4].SetColor(Color(1, 0.0, 0.0));
+		this->prisma[5].SetColor(Color(1, 0.0, 0.0));
+		this->prisma[6].SetColor(Color(0.13, 0.13, 0.13));
+		
 		break;
 	case '2':
-		cout << "hola" << endl;
+		this->prisma[0].SetColor(Color(1, 0, 0));
+		this->prisma[1].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[2].SetColor(Color(1, 0, 0));
+		this->prisma[3].SetColor(Color(1, 0, 0));
+		this->prisma[4].SetColor(Color(1, 0, 0));
+		this->prisma[5].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[6].SetColor(Color(1, 0, 0));
 		break;
 	case '3':
-		cout << "hola" << endl;
+		this->prisma[0].SetColor(Color(1, 0, 0));
+		this->prisma[1].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[2].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[3].SetColor(Color(1, 0, 0));
+		this->prisma[4].SetColor(Color(1, 0, 0));
+		this->prisma[5].SetColor(Color(1, 0, 0));
+		this->prisma[6].SetColor(Color(1, 0, 0));
 		break;
 	case '4':
-		cout << "hola" << endl;
+		this->prisma[0].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[1].SetColor(Color(1, 0, 0));
+		this->prisma[2].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[3].SetColor(Color(1, 0, 0));
+		this->prisma[4].SetColor(Color(1, 0, 0));
+		this->prisma[5].SetColor(Color(1, 0, 0));
+		this->prisma[6].SetColor(Color(0.13, 0.13, 0.13));
 		break;
 	case '5':
-		cout << "hola" << endl;
+		this->prisma[0].SetColor(Color(1, 0, 0));
+		this->prisma[1].SetColor(Color(1, 0, 0));
+		this->prisma[2].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[3].SetColor(Color(1, 0, 0));
+		this->prisma[4].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[5].SetColor(Color(1, 0, 0));
+		this->prisma[6].SetColor(Color(1, 0, 0));
 		break;
 	case '6':
-		cout << "hola" << endl;
+		this->prisma[0].SetColor(Color(1, 0, 0));
+		this->prisma[1].SetColor(Color(1, 0, 0));
+		this->prisma[2].SetColor(Color(1, 0, 0));
+		this->prisma[3].SetColor(Color(1, 0, 0));
+		this->prisma[4].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[5].SetColor(Color(1, 0, 0));
+		this->prisma[6].SetColor(Color(1, 0, 0));
 		break;
 	case '7':
-		cout << "hola" << endl;
+		this->prisma[0].SetColor(Color(1, 0, 0));
+		this->prisma[1].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[2].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[3].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[4].SetColor(Color(1, 0, 0));
+		this->prisma[5].SetColor(Color(1, 0, 0));
+		this->prisma[6].SetColor(Color(0.13, 0.13, 0.13));
 		break;
 	case '8':
-		cout << "hola" << endl;
+		this->prisma[0].SetColor(Color(1, 0, 0));
+		this->prisma[1].SetColor(Color(1, 0, 0));
+		this->prisma[2].SetColor(Color(1, 0, 0));
+		this->prisma[3].SetColor(Color(1, 0, 0));
+		this->prisma[4].SetColor(Color(1, 0, 0));
+		this->prisma[5].SetColor(Color(1, 0, 0));
+		this->prisma[6].SetColor(Color(1, 0, 0));
 		break;
 	case '9':
-		cout << "hola" << endl;
+		this->prisma[0].SetColor(Color(1, 0, 0));
+		this->prisma[1].SetColor(Color(1, 0, 0));
+		this->prisma[2].SetColor(Color(0.13, 0.13, 0.13));
+		this->prisma[3].SetColor(Color(1, 0, 0));
+		this->prisma[4].SetColor(Color(1, 0, 0));
+		this->prisma[5].SetColor(Color(1, 0, 0));
+		this->prisma[6].SetColor(Color(1, 0, 0));
 		break;
 	}
 	cout << "Tecla Pulsada: " << key << endl;
@@ -273,13 +334,20 @@ void Game::ProcessMouseClick(int button, int state, int x, int y)
 		cout << "Click: " << button << endl;
 }
 void Game::Init() {  //Vector posicion          Vector color      Vector dimensiones       Vector Rotación       
-	prisma[0] = Prisma(Vector3D(0.5f, 0.5f, -3.5f), Color(0.13, 0.13, 0.13), Vector3D(0.3, 1, 0.5), Vector3D(1.0, 1.0, 1.0), 0.7);
-	prisma[1] = Prisma(Vector3D(-0.5f, 0.5f, -3.5f), Color(0.13, 0.13, 0.13), Vector3D(0.3, 1, 0.5), Vector3D(1.0, 1.0, 1.0), 0.7);
-	prisma[2] = Prisma(Vector3D(-0.5f, 0.5f, -3.5f), Color(0.13, 0.13, 0.13), Vector3D(0.3, 1, 0.5), Vector3D(1.0, 1.0, 1.0), 0.7);
-	prisma[3] = Prisma(Vector3D(-0.5f, 0.5f, -3.5f), Color(0.13, 0.13, 0.13), Vector3D(0.3, 1, 0.5), Vector3D(1.0, 1.0, 1.0), 0.7);
-	prisma[4] = Prisma(Vector3D(-0.5f, 0.5f, -3.5f), Color(0.13, 0.13, 0.13), Vector3D(0.3, 1, 0.5), Vector3D(1.0, 1.0, 1.0), 0.7);
-	prisma[5] = Prisma(Vector3D(-0.5f, 0.5f, -3.5f), Color(0.13, 0.13, 0.13), Vector3D(0.3, 1, 0.5), Vector3D(1.0, 1.0, 1.0), 0.7);
-	prisma[6] = Prisma(Vector3D(-0.5f, 0.5f, -3.5f), Color(0.13, 0.13, 0.13), Vector3D(0.3, 1, 0.5), Vector3D(1.0, 1.0, 1.0), 0.7);
+	prisma[0] = Prisma(Vector3D(0, 1.2f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(1, 0.3f, 0.5f), Vector3D(30, 0, 0), 0.7);
+	prisma[1] = Prisma(Vector3D(-0.55, 0.7f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(0.3f, 1, 0.5), Vector3D(8, 17, 0), 0.7);
+	prisma[2] = Prisma(Vector3D(-0.55, -0.25, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(0.3, 1, 0.5), Vector3D(0, 17, 0), 0.7);
+	prisma[3] = Prisma(Vector3D(0, 0.25, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(1, 0.3f, 0.5f), Vector3D(5, 0, 0), 0.7);
+	prisma[4] = Prisma(Vector3D(0.55, 0.7f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(0.3, 1, 0.5), Vector3D(8, -17, 0), 0.7);
+	prisma[5] = Prisma(Vector3D(0.55, -0.25, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(0.3, 1, 0.5), Vector3D(0, -17, 0), 0.7);
+	prisma[6] = Prisma(Vector3D(0, -0.7f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(1, 0.3f, 0.5f), Vector3D(-20, 0, 0), 0.7);
+	/*	prisma[0] = Prisma(Vector3D(0, 1.2f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(1, 0.3f, 0.5f), Vector3D(30, 0, 0), 0.7);
+	prisma[1] = Prisma(Vector3D(-0.6f, 0.8f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(0.3f, 1, 0.5), Vector3D(0, 0, 0), 0.7);
+	prisma[2] = Prisma(Vector3D(-0.6f, -0.3f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(0.3, 1, 0.5), Vector3D(0, 0, 0), 0.7);
+	prisma[3] = Prisma(Vector3D(0, 0.25, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(1, 0.3f, 0.5f), Vector3D(0, 0, 0), 0.7);
+	prisma[4] = Prisma(Vector3D(0.6f, 0.8f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(0.3, 1, 0.5), Vector3D(0, 0, 0), 0.7);
+	prisma[5] = Prisma(Vector3D(0.6f, -0.3f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(0.3, 1, 0.5), Vector3D(0, 0, 0), 0.7);
+	prisma[6] = Prisma(Vector3D(0, -0.7f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(1, 0.3f, 0.5f), Vector3D(0, 0, 0), 0.7);*/
 }
 
 void Game::Render() { 

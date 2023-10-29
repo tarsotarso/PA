@@ -12,10 +12,10 @@ const int WINDOW_HEIGHT = 600;
 const int WINDOW_POSITION_X = 300;
 const int WINDOW_POSITION_Y = 400;
 const char TITLE[] = "Parte 1";
-const GLclampf RED = 0.2;
-const GLclampf GREEN = 0.6;
-const GLclampf BLUE = 0.5;
-const GLclampf ALPHA = 1.0;
+const GLclampf RED = 0.569;
+const GLclampf GREEN = 0.812;
+const GLclampf BLUE = 0.941;
+const GLclampf ALPHA = 1;
 
 // Variables //
 int fullScreenMode;
