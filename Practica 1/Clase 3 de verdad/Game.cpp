@@ -31,7 +31,7 @@ void Game::ProcessMouseClick(int button, int state, int x, int y)
 	case (0):   //Teapot
 		if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
 		{
-			switch (numerorandomprop1) 
+			switch (numerorandomprop1)
 			{
 			case(0):  //Size
 				switch (randomvalue)
@@ -70,7 +70,7 @@ void Game::ProcessMouseClick(int button, int state, int x, int y)
 				switch (randomvalue)
 				{
 				case(0):    //más (angulos de rotación, no cifras entre 1 y 0)
-					this->teapot.SetRotation(Vector3D(teapot.GetRotation().GetX() + 10, teapot.GetRotation().GetY() + 10, teapot.GetRotation().GetZ() + 20));    
+					this->teapot.SetRotation(Vector3D(teapot.GetRotation().GetX() + 10, teapot.GetRotation().GetY() + 10, teapot.GetRotation().GetZ() + 20));
 					break;
 				case(1):    //menos
 					this->teapot.SetRotation(Vector3D(teapot.GetRotation().GetX() + -10, teapot.GetRotation().GetY() + -10, teapot.GetRotation().GetZ() + -20));
@@ -81,50 +81,51 @@ void Game::ProcessMouseClick(int button, int state, int x, int y)
 		}
 		break;
 	case(1):                                       //Cube
-		if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN) {
+		if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
+		{
 			switch (numerorandomprop2)
 			{
-			case(0):
+			case(0):  //Size
 				switch (randomvalue)
 				{
-				case(0):
-
+				case(0):  //más              
+					this->cube.SetSize(this->cube.GetSize() + 0.1f);
 					break;
-				case(1):
-
+				case(1):  //menos
+					this->cube.SetSize(this->cube.GetSize() + -0.1f);
 					break;
 				}
 				break;
-			case(1):
+			case(1):  //Position
 				switch (randomvalue)
 				{
-				case(0):
-
+				case(0):  //a un lado
+					this->cube.SetPosition(Vector3D(cube.GetPosition().GetX() + 0.02, cube.GetPosition().GetY() + -0.02, cube.GetPosition().GetZ() + 0));
 					break;
-				case(1):
-
+				case(1):  //regresa
+					this->cube.SetPosition(Vector3D(cube.GetPosition().GetX() + -0.02, cube.GetPosition().GetY() + 0.02, cube.GetPosition().GetZ() + 0));
 					break;
 				}
 				break;
-			case(2):
+			case(2):   //color
 				switch (randomvalue)
 				{
-				case(0):
-
+				case(0):   //más
+					this->cube.SetColor(Color(cube.GetColor().GetX() + 0.1, cube.GetColor().GetY() + -0.1, cube.GetColor().GetZ() + 0.07));
 					break;
-				case(1):
-
+				case(1):    //menos
+					this->cube.SetColor(Color(cube.GetColor().GetX() + -0.1, cube.GetColor().GetY() + 0.1, cube.GetColor().GetZ() + -0.07));
 					break;
 				}
 				break;
-			case(3):
+			case(3):    //rotation
 				switch (randomvalue)
 				{
-				case(0):
-
+				case(0):    //más (angulos de rotación, no cifras entre 1 y 0)
+					this->cube.SetRotation(Vector3D(cube.GetRotation().GetX() + 20, cube.GetRotation().GetY() + 10, cube.GetRotation().GetZ() + 20));
 					break;
-				case(1):
-
+				case(1):    //menos
+					this->cube.SetRotation(Vector3D(cube.GetRotation().GetX() + -20, cube.GetRotation().GetY() + -10, cube.GetRotation().GetZ() + -20));
 					break;
 				}
 				break;
@@ -132,50 +133,51 @@ void Game::ProcessMouseClick(int button, int state, int x, int y)
 		}
 		break;
 	case(2):                                       //Cuboid
-		if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN) {
+		if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
+		{
 			switch (numerorandomprop2)
 			{
-			case(0):
+			case(0):  //Size
 				switch (randomvalue)
 				{
-				case(0):
-
+				case(0):  //más              
+					this->cuboid.SetSize(this->cuboid.GetSize() + 0.01f);
 					break;
-				case(1):
-
+				case(1):  //menos
+					this->cuboid.SetSize(this->cuboid.GetSize() + -0.01f);
 					break;
 				}
 				break;
-			case(1):
+			case(1):  //Position
 				switch (randomvalue)
 				{
-				case(0):
-
+				case(0):  //a un lado
+					this->cuboid.SetPosition(Vector3D(cuboid.GetPosition().GetX() + 0.02, cuboid.GetPosition().GetY() + -0.02, cuboid.GetPosition().GetZ() + 0));
 					break;
-				case(1):
-
+				case(1):  //regresa
+					this->cuboid.SetPosition(Vector3D(cuboid.GetPosition().GetX() + -0.02, cuboid.GetPosition().GetY() + 0.02, cuboid.GetPosition().GetZ() + 0));
 					break;
 				}
 				break;
-			case(2):
+			case(2):   //color
 				switch (randomvalue)
 				{
-				case(0):
-
+				case(0):   //más
+					this->cuboid.SetColor(Color(cuboid.GetColor().GetX() + 0.1, cuboid.GetColor().GetY() + -0.1, cuboid.GetColor().GetZ() + 0.07));
 					break;
-				case(1):
-
+				case(1):    //menos
+					this->cuboid.SetColor(Color(cuboid.GetColor().GetX() + -0.1, cuboid.GetColor().GetY() + 0.1, cuboid.GetColor().GetZ() + -0.07));
 					break;
 				}
 				break;
-			case(3):
+			case(3):    //rotation
 				switch (randomvalue)
 				{
-				case(0):
-
+				case(0):    //más (angulos de rotación, no cifras entre 1 y 0)
+					this->cuboid.SetRotation(Vector3D(cuboid.GetRotation().GetX() + 15, cuboid.GetRotation().GetY() + 15,cuboid.GetRotation().GetZ() + 10));
 					break;
-				case(1):
-
+				case(1):    //menos
+					this->cuboid.SetRotation(Vector3D(cuboid.GetRotation().GetX() + -15,cuboid.GetRotation().GetY() + -15, cuboid.GetRotation().GetZ() + -10));
 					break;
 				}
 				break;
@@ -183,50 +185,51 @@ void Game::ProcessMouseClick(int button, int state, int x, int y)
 		}
 		break;
 	case(3):                                            //Sphere
-		if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN) {
+		if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
+		{
 			switch (numerorandomprop1)
 			{
-			case(0):
+			case(0):  //Size
 				switch (randomvalue)
 				{
-				case(0):
-
+				case(0):  //más              
+					this->sphere.SetDimensions(Vector3D(sphere.GetDimensions().GetX() + 0.02, sphere.GetDimensions().GetY() + -0.002, sphere.GetDimensions().GetZ() + 0.002));
 					break;
-				case(1):
-
+				case(1):  //menos
+					this->sphere.SetDimensions(Vector3D(sphere.GetDimensions().GetX() + -0.02, sphere.GetDimensions().GetY() + 0.002, sphere.GetDimensions().GetZ() - 0.002));
 					break;
 				}
 				break;
-			case(1):
+			case(1):  //Position
 				switch (randomvalue)
 				{
-				case(0):
-
+				case(0):  //a un lado
+					this->sphere.SetPosition(Vector3D(sphere.GetPosition().GetX() + 0.02, sphere.GetPosition().GetY() + -0.02, sphere.GetPosition().GetZ() + 0));
 					break;
-				case(1):
-
+				case(1):  //regresa
+					this->sphere.SetPosition(Vector3D(sphere.GetPosition().GetX() + -0.02, sphere.GetPosition().GetY() + 0.02, sphere.GetPosition().GetZ() + 0));
 					break;
 				}
 				break;
-			case(2):
+			case(2):   //color
 				switch (randomvalue)
 				{
-				case(0):
-
+				case(0):   //más
+					this->sphere.SetColor(Color(sphere.GetColor().GetX() + 0.1, sphere.GetColor().GetY() + -0.1, sphere.GetColor().GetZ() + 0.07));
 					break;
-				case(1):
-
+				case(1):    //menos
+					this->sphere.SetColor(Color(sphere.GetColor().GetX() + -0.1, sphere.GetColor().GetY() + 0.1, sphere.GetColor().GetZ() + -0.07));
 					break;
 				}
 				break;
-			case(3):
+			case(3):    //rotation
 				switch (randomvalue)
 				{
-				case(0):
-
+				case(0):    //más (angulos de rotación, no cifras entre 1 y 0)
+					this->sphere.SetRotation(Vector3D(sphere.GetRotation().GetX() + 10, sphere.GetRotation().GetY() + 10, sphere.GetRotation().GetZ() + 20));
 					break;
-				case(1):
-
+				case(1):    //menos
+					this->sphere.SetRotation(Vector3D(sphere.GetRotation().GetX() + -10, sphere.GetRotation().GetY() + -10, sphere.GetRotation().GetZ() + -20));
 					break;
 				}
 				break;
@@ -234,8 +237,7 @@ void Game::ProcessMouseClick(int button, int state, int x, int y)
 		}
 		break;
 	}
-	
-	cout << "Click: " << button << endl;
+		cout << "Click: " << button << endl;
 }
 void Game::Init() { }
 
