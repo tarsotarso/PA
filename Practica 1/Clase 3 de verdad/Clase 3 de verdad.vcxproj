@@ -132,6 +132,7 @@
     <ClCompile Include="Cube.cpp" />
     <ClCompile Include="Cuboid.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Prisma.cpp" />
     <ClCompile Include="Sphere.cpp" />
     <ClCompile Include="Teapot.cpp" />
     <ClCompile Include="Vector3D.cpp" />
@@ -144,6 +145,7 @@
     <ClInclude Include="Cube.h" />
     <ClInclude Include="Cuboid.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Prisma.h" />
     <ClInclude Include="Sphere.h" />
     <ClInclude Include="Teapot.h" />
     <ClInclude Include="Vector3D.h" />

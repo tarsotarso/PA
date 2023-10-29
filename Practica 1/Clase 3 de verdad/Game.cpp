@@ -9,6 +9,39 @@ using namespace std;
 
 void Game::ProcessKeyPressed(unsigned char key, int px, int py)
 {
+	switch (key)
+	{
+	case '0':
+		this->prisma[0].SetColor(Color(prisma[0].GetColor().GetX() == 1.0, prisma[0].GetColor().GetY() != 0.0, prisma[0].GetColor().GetZ() != 0.0));
+		break;
+	case '1':
+		cout << "hola" << endl;
+		break;
+	case '2':
+		cout << "hola" << endl;
+		break;
+	case '3':
+		cout << "hola" << endl;
+		break;
+	case '4':
+		cout << "hola" << endl;
+		break;
+	case '5':
+		cout << "hola" << endl;
+		break;
+	case '6':
+		cout << "hola" << endl;
+		break;
+	case '7':
+		cout << "hola" << endl;
+		break;
+	case '8':
+		cout << "hola" << endl;
+		break;
+	case '9':
+		cout << "hola" << endl;
+		break;
+	}
 	cout << "Tecla Pulsada: " << key << endl;
 }
 
@@ -239,13 +272,28 @@ void Game::ProcessMouseClick(int button, int state, int x, int y)
 	}
 		cout << "Click: " << button << endl;
 }
-void Game::Init() { }
+void Game::Init() {  //Vector posicion          Vector color      Vector dimensiones       Vector Rotación       
+	prisma[0] = Prisma(Vector3D(0.5f, 0.5f, -3.5f), Color(0.13, 0.13, 0.13), Vector3D(0.3, 1, 0.5), Vector3D(1.0, 1.0, 1.0), 0.7);
+	prisma[1] = Prisma(Vector3D(-0.5f, 0.5f, -3.5f), Color(0.13, 0.13, 0.13), Vector3D(0.3, 1, 0.5), Vector3D(1.0, 1.0, 1.0), 0.7);
+	prisma[2] = Prisma(Vector3D(-0.5f, 0.5f, -3.5f), Color(0.13, 0.13, 0.13), Vector3D(0.3, 1, 0.5), Vector3D(1.0, 1.0, 1.0), 0.7);
+	prisma[3] = Prisma(Vector3D(-0.5f, 0.5f, -3.5f), Color(0.13, 0.13, 0.13), Vector3D(0.3, 1, 0.5), Vector3D(1.0, 1.0, 1.0), 0.7);
+	prisma[4] = Prisma(Vector3D(-0.5f, 0.5f, -3.5f), Color(0.13, 0.13, 0.13), Vector3D(0.3, 1, 0.5), Vector3D(1.0, 1.0, 1.0), 0.7);
+	prisma[5] = Prisma(Vector3D(-0.5f, 0.5f, -3.5f), Color(0.13, 0.13, 0.13), Vector3D(0.3, 1, 0.5), Vector3D(1.0, 1.0, 1.0), 0.7);
+	prisma[6] = Prisma(Vector3D(-0.5f, 0.5f, -3.5f), Color(0.13, 0.13, 0.13), Vector3D(0.3, 1, 0.5), Vector3D(1.0, 1.0, 1.0), 0.7);
+}
 
 void Game::Render() { 
 	this->GetTeapot().Render();
 	this->GetCube().Render();
 	this->GetCuboid().Render();
 	this->GetSphere().Render();
+	this->GetPrisma0().Render();
+	this->GetPrisma1().Render();
+	this->GetPrisma2().Render();
+	this->GetPrisma3().Render();
+	this->GetPrisma4().Render();
+	this->GetPrisma5().Render();
+	this->GetPrisma6().Render();
 }
 
 void Game::Update() { }
