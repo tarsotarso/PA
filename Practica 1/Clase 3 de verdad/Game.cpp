@@ -117,7 +117,7 @@ void Game::ProcessMouseClick(int button, int state, int x, int y)
 	
 	int numerorandomobj = rand() % 4;
 	int numerorandomprop1 = rand() % 4;
-	int numerorandomprop2 = rand() % 5;
+	int numerorandomprop2 = rand() % 3;
 	int randomvalue = rand() % 2;
 	
 	switch (numerorandomobj)
@@ -177,7 +177,7 @@ void Game::ProcessMouseClick(int button, int state, int x, int y)
 	case(1):                                       //Cube
 		if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
 		{
-			switch (numerorandomprop2)
+			switch (numerorandomprop1)
 			{
 			case(0):  //Size
 				switch (randomvalue)
@@ -229,7 +229,7 @@ void Game::ProcessMouseClick(int button, int state, int x, int y)
 	case(2):                                       //Cuboid
 		if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
 		{
-			switch (numerorandomprop2)
+			switch (numerorandomprop1)
 			{
 			case(0):  //Size
 				switch (randomvalue)
@@ -281,7 +281,7 @@ void Game::ProcessMouseClick(int button, int state, int x, int y)
 	case(3):                                            //Sphere
 		if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
 		{
-			switch (numerorandomprop1)
+			switch (numerorandomprop2)
 			{
 			case(0):  //Size
 				switch (randomvalue)
@@ -316,17 +316,9 @@ void Game::ProcessMouseClick(int button, int state, int x, int y)
 					break;
 				}
 				break;
-			case(3):    //rotation
-				switch (randomvalue)
-				{
-				case(0):    //más (angulos de rotación, no cifras entre 1 y 0)
-					this->sphere.SetRotation(Vector3D(sphere.GetRotation().GetX() + 10, sphere.GetRotation().GetY() + 10, sphere.GetRotation().GetZ() + 20));
-					break;
-				case(1):    //menos
-					this->sphere.SetRotation(Vector3D(sphere.GetRotation().GetX() + -10, sphere.GetRotation().GetY() + -10, sphere.GetRotation().GetZ() + -20));
-					break;
-				}
-				break;
+
+				//En el caso de la esfera es inutil agregarle un valor de rotación en este programa porque no se aprecia la diferencia.
+
 			}
 		}
 		break;
@@ -341,13 +333,6 @@ void Game::Init() {  //Vector posicion          Vector color      Vector dimensi
 	prisma[4] = Prisma(Vector3D(0.55, 0.7f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(0.3, 1, 0.5), Vector3D(8, -17, 0), 0.7);
 	prisma[5] = Prisma(Vector3D(0.55, -0.25, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(0.3, 1, 0.5), Vector3D(0, -17, 0), 0.7);
 	prisma[6] = Prisma(Vector3D(0, -0.7f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(1, 0.3f, 0.5f), Vector3D(-20, 0, 0), 0.7);
-	/*	prisma[0] = Prisma(Vector3D(0, 1.2f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(1, 0.3f, 0.5f), Vector3D(30, 0, 0), 0.7);
-	prisma[1] = Prisma(Vector3D(-0.6f, 0.8f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(0.3f, 1, 0.5), Vector3D(0, 0, 0), 0.7);
-	prisma[2] = Prisma(Vector3D(-0.6f, -0.3f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(0.3, 1, 0.5), Vector3D(0, 0, 0), 0.7);
-	prisma[3] = Prisma(Vector3D(0, 0.25, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(1, 0.3f, 0.5f), Vector3D(0, 0, 0), 0.7);
-	prisma[4] = Prisma(Vector3D(0.6f, 0.8f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(0.3, 1, 0.5), Vector3D(0, 0, 0), 0.7);
-	prisma[5] = Prisma(Vector3D(0.6f, -0.3f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(0.3, 1, 0.5), Vector3D(0, 0, 0), 0.7);
-	prisma[6] = Prisma(Vector3D(0, -0.7f, -3.5f), Color(0.13f, 0.13f, 0.13f), Vector3D(1, 0.3f, 0.5f), Vector3D(0, 0, 0), 0.7);*/
 }
 
 void Game::Render() { 

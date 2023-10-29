@@ -1,156 +1,88 @@
-﻿  Clase 3 de verdad.cpp
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Teapot.h(17,61): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Teapot.h(17,55): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Teapot.h(17,49): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cube.h(17,53): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cube.h(17,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cube.h(18,59): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cuboid.h(17,62): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cuboid.h(17,56): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cuboid.h(17,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cuboid.h(18,14): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cuboid.h(18,57): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Clase 3 de verdad.cpp(15,22): warning C4305: 'inicializando': truncamiento de 'double' a 'GLclampf'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Clase 3 de verdad.cpp(16,24): warning C4305: 'inicializando': truncamiento de 'double' a 'GLclampf'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Clase 3 de verdad.cpp(17,23): warning C4305: 'inicializando': truncamiento de 'double' a 'GLclampf'
-  Game.cpp
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Teapot.h(17,61): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Teapot.h(17,55): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Teapot.h(17,49): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cube.h(17,53): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cube.h(17,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cube.h(18,59): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cuboid.h(17,62): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cuboid.h(17,56): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cuboid.h(17,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cuboid.h(18,14): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Cuboid.h(18,57): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(18,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(18,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(18,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(24,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(24,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(24,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(25,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(25,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(25,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(26,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(26,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(26,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(27,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(27,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(27,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(30,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(30,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(30,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(35,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(35,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(35,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(39,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(39,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(39,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(44,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(44,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(44,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(45,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(45,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(45,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(52,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(52,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(52,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(54,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(54,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(54,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(58,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(58,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(58,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(63,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(63,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(63,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(65,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(65,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(65,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(74,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(74,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(74,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(80,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(80,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(80,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(81,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(81,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(81,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(82,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(82,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(82,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(85,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(85,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(85,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(99,46): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(99,40): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(99,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(145,104): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(145,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(148,105): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(148,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(156,124): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(156,91): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(156,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(159,124): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(159,92): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(159,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(197,98): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(197,64): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(200,99): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(200,64): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(208,116): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(208,85): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(208,55): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(211,116): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(211,86): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(211,55): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(249,104): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(249,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(252,105): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(252,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(260,124): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(260,91): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(260,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(263,124): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(263,92): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(263,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(290,150): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(290,110): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(290,72): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(293,150): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(293,111): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(293,72): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(301,104): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(301,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(304,105): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(304,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(312,124): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(312,91): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(312,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(315,124): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(315,92): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(315,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(337,120): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(338,31): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(338,123): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(339,31): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(339,89): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(339,123): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(340,119): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(341,30): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(341,87): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(341,122): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(342,30): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(342,88): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(342,123): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(343,122): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-  Teapot.cpp
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Teapot.h(17,61): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Teapot.h(17,55): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\Clase 3 de verdad\Teapot.h(17,49): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-  Generando código...
-  Clase 3 de verdad.vcxproj -> C:\Users\tarso\OneDrive\Área de Trabalho\Programación\C++ practica\PA-main\PA-main\Practica 1\x64\Debug\Clase 3 de verdad.exe
+﻿  Game.cpp
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Teapot.h(18,1): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Cube.h(18,1): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Cube.h(18,1): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Cuboid.h(18,1): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Cuboid.h(18,1): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(18,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(24,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(25,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(26,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(27,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(30,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(35,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(39,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(44,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(45,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(52,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(54,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(58,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(63,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(65,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(74,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(80,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(81,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(82,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(85,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(99,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(145,104): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(145,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(148,105): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(148,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(156,124): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(156,91): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(156,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(159,124): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(159,92): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(159,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(197,98): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(197,64): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(200,99): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(200,64): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(208,116): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(208,85): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(208,55): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(211,116): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(211,86): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(211,55): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(249,104): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(249,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(252,105): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(252,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(260,124): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(260,91): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(260,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(263,124): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(263,92): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(263,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(290,150): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(290,110): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(290,72): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(293,150): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(293,111): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(293,72): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(301,104): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(301,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(304,105): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(304,68): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(312,124): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(312,91): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(312,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(315,124): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(315,92): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(315,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(326,123): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(327,48): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(327,126): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(328,49): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(328,100): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(328,126): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(329,122): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(330,47): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(330,98): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(330,125): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(331,48): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(331,99): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(331,126): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\Clase 3 de verdad\Game.cpp(332,125): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Clase 3 de verdad.vcxproj -> C:\Users\juanc\Desktop\Entrega Programación avanzada\PA-main\Practica 1\x64\Debug\Clase 3 de verdad.exe
