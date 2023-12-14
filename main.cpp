@@ -20,6 +20,7 @@
 glm::mat4	proj = glm::mat4(1.0f);
 glm::mat4	view = glm::mat4(1.0f);
 glm::mat4	model = glm::mat4(1.0f);
+glm::mat4	model2 = glm::mat4(1.0f);
 
 
 //////////////////////////////////////////////////////////////
@@ -212,7 +213,7 @@ void initShader(const char *vname, const char *fname)
 	uEmiTex = glGetUniformLocation(program, "emiTex");
 }
 
-void initObj()
+/*void initObj()
 {
 	buffSize = 5;
 	glGenBuffers(buffSize, buff);
@@ -263,12 +264,13 @@ void initObj()
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, triangleIndexVBO);
 
 	model = glm::mat4(1.0f);
+	model2 = glm::mat4(1.0f);
 
 	/////////////////////////////////////////////////
 
 	colorTexId = loadTex("../img/color2.png");
 	emiTexId = loadTex("../img/emissive.png");
-}
+}*/
 
 void initObj2()
 {
@@ -288,7 +290,8 @@ void initObj2()
 	glBufferSubData(GL_ARRAY_BUFFER, soi + 6*sov , 3* sov, cubeVertexNormal);
 	glBufferSubData(GL_ARRAY_BUFFER, soi + 9*sov,2*sov, cubeVertexTexCoord);
 
-//////////////////////////////////////
+	//////////////////////////////////////
+
 	glGenVertexArrays(1, &vao);
 	glBindVertexArray(vao);
 
@@ -307,6 +310,9 @@ void initObj2()
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, buff[0]);
 
 	model = glm::mat4(1.0f);
+	model2 = glm::mat4(1.0f);
+
+	/////////////////////////////////////////////////
 
 	colorTexId = loadTex("../img/color2.png");
 	emiTexId = loadTex("../img/emissive.png");
@@ -380,13 +386,40 @@ unsigned int loadTex(const char *fileName){
 
 void renderFunc()
 {
+	glm::mat4 modelView;
+	glm::mat4 modelViewProj;
+	glm::mat4 normal;
+
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 	glUseProgram(program);
 
-	glm::mat4 modelView = view * model;
-	glm::mat4 modelViewProj = proj * view * model;
-	glm::mat4 normal = glm::transpose(glm::inverse(modelView));
+	/////////////// Primer Objeto ///////////////
+
+	modelView = view * model;
+	modelViewProj = proj * view * model;
+	normal = glm::transpose(glm::inverse(modelView));
+
+	if (uModelViewMat != -1)
+		glUniformMatrix4fv(uModelViewMat, 1, GL_FALSE,
+			&(modelView[0][0]));
+	if (uModelViewProjMat != -1)
+		glUniformMatrix4fv(uModelViewProjMat, 1, GL_FALSE,
+			&(modelViewProj[0][0]));
+	if (uNormalMat != -1)
+		glUniformMatrix4fv(uNormalMat, 1, GL_FALSE,
+			&(normal[0][0]));
+
+	glBindVertexArray(vao);
+	glDrawElements(GL_TRIANGLES, cubeNTriangleIndex * 3,
+		GL_UNSIGNED_INT, (void*)0);
+
+	/////////////// Segundo Objeto ///////////////
+
+	modelView = view * model2;
+	modelViewProj = proj * view * model2;
+	normal = glm::transpose(glm::inverse(modelView));
+
 	if (uModelViewMat != -1)
 		glUniformMatrix4fv(uModelViewMat, 1, GL_FALSE,
 			&(modelView[0][0]));
@@ -439,9 +472,17 @@ void resizeFunc(int width, int height)
 void idleFunc()
 {
 	model = glm::mat4(1.0f);
+	model2 = glm::mat4(1.0f);
+
 	static float angle = 0.0f;
 	angle = (angle > 3.141592f * 2.0f) ? 0 : angle + 0.01f;
+
+	static float radio = 3.0f;        //tenemos que crear un movimiento de traslación para el segundo objeto
+	static float orbitaX = radio * cos(angle);        //como tiene que orbitar en primer objeto en torno al eje y, en el plano XZ.
+	static float orbitaZ = radio * sin(angle);
+
 	model = glm::rotate(model, angle, glm::vec3(1.0f, 1.0f, 0.0f));
+	model2 = glm::rotate(model2, angle, glm::vec3(0.f, 1.f, 0.f)) * glm::translate(glm::mat4(1.0f), glm::vec3(orbitaX, 0.f, orbitaZ));
 
 	glutPostRedisplay();
 }
